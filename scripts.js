@@ -1,7 +1,6 @@
 var a=prompt ('Skrypt oblicza równanie; (a*a)-(2*a*b)-(b*b), podaj a:');
 var b=prompt ('podaj b:');
 var value= (a*a) - (2*a*b)-(b*b);
-// alert(value);
 console.log(value);
 if (value >0) {
 	alert ('Wynik dodatni='+value);
